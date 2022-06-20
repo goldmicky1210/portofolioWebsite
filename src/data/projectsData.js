@@ -1,7 +1,8 @@
-import one from '../assets/svg/projects/quantex.png'
-import two from '../assets/svg/projects/holdemhero1.png'
-import three from '../assets/svg/projects/ojochat1.png'
-import four from '../assets/svg/projects/funkypigeon1.png'
+import quantex from '../assets/svg/projects/quantex.png'
+import holdemhero from '../assets/svg/projects/holdemhero1.png'
+import ojochat from '../assets/svg/projects/ojochat1.png'
+import funckypigeon from '../assets/svg/projects/funkypigeon1.png'
+import gorilla from '../assets/svg/projects/sadgorrila.jpg'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
@@ -16,7 +17,7 @@ export const projectsData = [
         tags: ['React', 'Smart Contract', 'Material Ui', 'AWS'],
         code: 'https://www.sadgorilla-nft.com/',
         demo: 'https://www.sadgorilla-nft.com/',
-        image: one
+        image: gorilla
     },
     {
         id: 2,
@@ -25,44 +26,45 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Material Ui'],
         code: 'https://github.com/cooldev225/ojochat',
         demo: 'https://ojochat.com',
-        image: three
+        image: ojochat
     },
     {
         id: 3,
-        projectName: 'Quantex',
-        projectDesc: 'Quantex (Formerly CryptiSwap) is a Global Crypto Exchange featuring a Non-Custodial swap platform and an Advanced Trading platform.',
-        tags: ['React', 'CSS', 'Material Ui', 'AWS'],
-        code: 'https://github.com/cooldev225/',
-        demo: 'https://www.crunchbase.com/organization/cryptiswap',
-        image: one
-    },
-    {
-        id: 4,
         projectName: 'Holdem Heroes',
         projectDesc: "Holdem Heroes is the on-chain NFT Poker game. Mint the 1326 Hole Card combinations as NFTs. Then play Texas Hold'em with them! Mint price is dynamic with Dynamic Drops.",
         tags: ['React', 'Node.js', 'Tailwind CSS', 'Vercel'],
         code: 'https://github.com/cooldev225/holdem-ui',
         demo: 'https://www.holdemheroes.com/',
-        image: two
+        image: holdemhero
+    },
+    {
+        id: 4,
+        projectName: 'Quantex',
+        projectDesc: 'Quantex (Formerly CryptiSwap) is a Global Crypto Exchange featuring a Non-Custodial swap platform and an Advanced Trading platform.',
+        tags: ['React', 'CSS', 'Material Ui', 'AWS'],
+        code: 'https://github.com/cooldev225/',
+        demo: 'https://www.crunchbase.com/organization/cryptiswap',
+        image: quantex
     },
     {
         id: 5,
-        projectName: 'Diverge',
-        projectDesc: "Diverge is a cryptocurrency exchange platform focused on creating the best product available to the market.",
-        tags: ['React', 'Node.js', 'Tailwind CSS', 'Vercel'],
-        code: 'http://diverge.live/home',
-        demo: 'http://diverge.live/home',
-        image: two
-    },
-    {
-        id: 6,
         projectName: 'Funky Pigeon',
         projectDesc: 'Celebrate their birthday with a range of funny, personal and traditional birthday cards for him, for her and for kids!',
         tags: ['React', 'jQuery', 'AWS', 'ASP.NET'],
         code: 'https://github.com/cooldev225/19-09-08-PhotoEditorWeb',
         demo: 'https://www.funkypigeon.com/',
-        image: four
+        image: funckypigeon
     },
+    {
+        id: 6,
+        projectName: 'Diverge',
+        projectDesc: "Diverge is a cryptocurrency exchange platform focused on creating the best product available to the market.",
+        tags: ['React', 'Node.js', 'Tailwind CSS', 'Vercel'],
+        code: 'http://diverge.live/home',
+        demo: 'http://diverge.live/home',
+        image: six
+    },
+    
     {
         id: 7,
         projectName: 'Worldie',
